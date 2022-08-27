@@ -1,0 +1,26 @@
+{
+    "name": "gping123/gphp",
+    "description": "gphp",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "gphp"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gphp\\": "src/"
+        },
+        "files" : [
+            "gphp/Functions/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Gping123",
+            "email": "1530188802@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
